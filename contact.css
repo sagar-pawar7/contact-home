@@ -1,0 +1,129 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: system-ui;
+}
+#main {
+    display: flex;
+    justify-content: space-around;
+}
+#main .head {
+    display: flex;
+    flex-direction: column;
+    width: 436px;
+    margin-top: 70px;
+}
+.head .heading .first_heading {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.head .heading .second_heading {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.head .heading .third_heading {
+    font-size: 16px;
+}
+.head .social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 70px;
+    margin-right: 120px;
+}
+.head .social .discort {
+    height: 43px;
+    width: 50px;
+    background-image: url(./images/Group\ 301.png);
+    background-position: 217px 44px;
+    margin-right: 20px;
+}
+.head .social .insta {
+    height: 43px;
+    width: 50px;
+    background-image: url(./images/Group\ 301.png);
+    background-position: 130px 44px;
+    margin-right: 20px;
+}
+.head .social .tele {
+    height: 43px;
+    width: 50px;
+    background-image: url(./images/Group\ 301.png);
+    background-position: 265px 44px;
+}
+.head .link {
+    text-align: center;
+}
+.head .link a {
+    text-decoration: none;
+    color: initial;
+    font-size: 14px;
+    font-weight: lighter;
+}
+#fill {
+    margin-top: 50px;
+}
+#fill .contact {
+    background-image: linear-gradient(to top, rgba(106,0,255,1) 2%, rgba(143,0,255,1) 37%);
+    border-radius: 15px;
+    height: 415px;
+}
+#fill .contact .head_line {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+} 
+#fill .contact .head_line h1 {
+    padding-top: 15px;
+}
+#fill .contact .name {
+    margin: 20px 60px;
+}
+#fill .contact .name label {
+    font-weight: bolder;
+}
+#fill .contact .name input {
+    width: 230px;
+    height: 30px;
+    outline: none;
+}
+#fill .contact .email {
+    margin: 20px 60px;
+}
+#fill .contact .email label {
+    font-weight: bolder;
+}
+#fill .contact .email input {
+    width: 230px;
+    height: 30px;
+    outline: none;
+}
+#fill .contact .message {
+    margin: 20px 60px 50px 60px;
+}
+#fill .contact .message textarea {
+    width: 230px;
+    height: 60px;
+    outline: none;
+}
+#fill .contact .message label {
+    font-weight: bolder;
+}
+#fill .contact .textarea input {
+    width: 250px;
+    height: 45px;
+}
+#fill .contact .send {
+    text-align: center;
+}
+#fill .contact .send a {
+    text-decoration: none;
+    border-radius: 10px;
+    color: initial;
+    font-weight: bolder;
+    padding: 12px;
+    background-color: deeppink;
+}
